@@ -15,6 +15,7 @@
 
 ### Built With
 
+* [TypeScript](https://www.typescriptlang.org/)
 * [Angular](https://angular.io/)
 * [Bootstrap](https://getbootstrap.com/)
 * CSS
