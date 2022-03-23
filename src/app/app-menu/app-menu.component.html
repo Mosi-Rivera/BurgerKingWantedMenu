@@ -1,0 +1,17 @@
+<div class="container">
+    <div class="np-container">
+        <header-tag [setActiveTab]="setActiveTab" [object]="object"></header-tag>
+        <div class="flex-table row">
+            <div class="flex-row cell large section">
+                <h2>FEATURED {{object.active_tab}}</h2>
+            </div>
+        </div>
+        <div class="flex-table row">
+            <div class="flex-row cell item" *ngFor="let item of getActiveMenuItems()">
+                <menu-item [item]="item"></menu-item>
+            </div>
+        </div>
+        <footer-tag></footer-tag>
+    </div>
+    
+</div>
